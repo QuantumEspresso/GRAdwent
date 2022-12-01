@@ -27,5 +27,5 @@ END{
         bestScore=currScore;
         bestElf=currElf;
     }
-    print "The best Elf is number " bestElf " with " bestScore " calories.";
+    print bestScore;
 }' $1
